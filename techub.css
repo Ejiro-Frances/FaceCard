@@ -1,0 +1,108 @@
+body {
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: rgb(245, 245, 245);
+    display: flex;
+    justify-content: center;
+}
+
+.main {
+    display: flex;
+    padding-top: 50px;
+}
+.borderline {
+    height: 65%;
+    width: 12px;
+    margin-top: 90px;
+    background-color: #3636ec;
+    border-radius: 9px;
+}
+h1 {
+    padding-left: 40px;
+    padding-right: 100px;
+    color: #3636ec;
+    font-size: 90px;
+}
+.faceCardSection {
+    background: linear-gradient(180deg, #3636ec 35%, #ffffff 10%);
+    width: 400px;
+    height: 500px;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-shadow: 2px 30px 50px -5px #a7a4a4;
+}
+
+#faceCard {
+    border-radius: 90%;
+    height: 180px;
+    width: 180px;
+    border: 5px solid #3636ec;
+    margin-top: 25px;
+    padding: 3px;
+    background-color: #ffffff;
+}
+
+h2 {
+   font-size: 30px;
+   line-height: 1px; 
+}
+p {
+    margin-top: 0;
+    font-size: normal;
+    line-height: 20px;
+}
+
+.imgDiv {
+    display: flex;
+    gap: 20px;
+    height: 30px;
+}
+.icon {
+    height: 40px;
+    width: 40px;
+}
+.button {
+    display: flex;
+    gap: 20px;
+}
+
+button {
+    background-color: #3636ec;
+    color: white;
+    border-radius: 25px;
+    padding: 10px;
+    border: none;
+    margin-top: 30px;
+    font-size: 15px;
+    width: 120px;
+}   
+.bottom {
+    display: flex;
+    margin-top: 5px;
+}
+.lowerIcon {
+    width: 20px;
+    height: 18px;
+    gap: 20px;
+    padding: 5px;
+    
+}
+.heartDiv, .chatDiv, .replyDiv {
+    display: flex;
+    flex-direction: row;
+    font-size: 14px;
+    margin-top: 5px;
+    padding: 5px;
+}
+.numberSpan {
+    margin-top: 2px;
+    font-size: 17px;
+}
+.line {
+    height: 16px;
+    border-left: 1px solid gray;
+    margin-top: 16px;
+    margin-left: 15px;
+    padding: 0 5px;
+}
